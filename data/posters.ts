@@ -6,6 +6,7 @@ import poster4 from "@/public/ohlhafv.jpg";
 import poster5 from "@/public/otadancenight.jpg";
 import poster6 from "@/public/silta.jpg";
 import poster7 from "@/public/taffaterde.jpg";
+import poster8 from "@/public/campustrials.jpg";
 
 export interface Poster {
   name: string;
@@ -40,5 +41,9 @@ export const posters: Poster[] = [
   {
     name: "Täffä AB's Summer Terde",
     image: poster7,
+  },
+  {
+    name: "ESN Campus Trials",
+    image: poster8,
   },
 ];
