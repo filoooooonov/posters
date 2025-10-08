@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Gallery from "@/components/Gallery";
-import bg from "@/public/otaniemi_map.jpg";
+import bg from "@/public/otaniemi2.png";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <Image
         src={bg}
         alt="Otaniemi map"
-        className="absolute top-0 left-0 w-full -z-2 h-80 object-cover saturate-0 brightness-50"
+        className="absolute top-0 left-0 w-full -z-2 h-80 object-cover saturate-0 opacity-80"
       />
       <div className="absolute top-0 left-0 w-full -z-1 h-80 bg-gradient-to-t from-neutral-950 to-transparent"></div>
       <h1 className="text-5xl font-medium mb-8 text-white">Posters</h1>
