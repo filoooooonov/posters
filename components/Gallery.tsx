@@ -31,7 +31,9 @@ export default function Gallery() {
                 alt={selectedPoster.name}
                 className="rounded-lg"
               />
-              <p className="mt-6 text-base">{selectedPoster.name}</p>
+              <p className="mt-6 text-base text-neutral-200">
+                {selectedPoster.name}
+              </p>
             </motion.div>
           </>
         ) : null}
