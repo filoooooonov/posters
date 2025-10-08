@@ -39,7 +39,7 @@ export default function Gallery() {
         ) : null}
       </AnimatePresence>
 
-      <div className="columns-3 gap-4 space-y-4">
+      <div className="columns-2 md:columns-3 gap-4 space-y-4">
         {posters.map((poster) => (
           <div
             key={poster.name}
