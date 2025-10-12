@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Gallery from "@/components/Gallery";
-import bg from "@/public/otaniemi2.png";
+import bg from "@/public/bg_otaniemi2.png";
 
 export default function Home() {
   return (
