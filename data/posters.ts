@@ -7,6 +7,11 @@ import poster5 from "@/public/otadancenight.jpg";
 import poster6 from "@/public/silta.jpg";
 import poster7 from "@/public/taffaterde.jpg";
 import poster8 from "@/public/campustrials.jpg";
+import poster9 from "@/public/apelit.jpg";
+import poster10 from "@/public/diili.jpg";
+import poster11 from "@/public/gamejam.jpg";
+import poster12 from "@/public/ignite24.jpg";
+import poster13 from "@/public/niemenhalki.jpg";
 
 export interface Poster {
   name: string;
@@ -45,5 +50,25 @@ export const posters: Poster[] = [
   {
     name: "ESN Campus Trials",
     image: poster8,
+  },
+  {
+    name: "A!-pelit",
+    image: poster9,
+  },
+  {
+    name: "Äpy Diili",
+    image: poster10,
+  },
+  {
+    name: "Equinox Gamejam",
+    image: poster11,
+  },
+  {
+    name: "Ignite 2024",
+    image: poster12,
+  },
+  {
+    name: "Niemenhalki",
+    image: poster13,
   },
 ];

@@ -24,14 +24,14 @@ export default function Gallery() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-lg"
+              className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-lg pointer-events-none"
             >
               <Image
                 src={selectedPoster.image}
                 alt={selectedPoster.name}
                 className="rounded-lg"
               />
-              <p className="mt-6 text-base text-neutral-200">
+              <p className="mt-6 w-max text-base text-neutral-200 !pointer-events-auto">
                 {selectedPoster.name}
               </p>
             </motion.div>
