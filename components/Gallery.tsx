@@ -24,7 +24,7 @@ export default function Gallery() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-lg pointer-events-none"
+              className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] md:w-lg pointer-events-none"
             >
               <Image
                 src={selectedPoster.image}

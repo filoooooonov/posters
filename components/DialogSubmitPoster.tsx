@@ -102,12 +102,9 @@ export function DialogSubmitPoster() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button
-          variant="default"
-          className="text-neutral-600 bg-transparent hover:bg-transparent cursor-pointer hover:text-neutral-500 text-sm md:text-base"
-        >
+        <button className="text-left text-neutral-600 bg-transparent hover:bg-transparent cursor-pointer hover:text-neutral-500 text-sm md:text-base">
           Submit a Poster
-        </Button>
+        </button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px] bg-neutral-800/80 backdrop-blur-2xl border-4 border-neutral-700/30 rounded-2xl">
         <DialogHeader>
