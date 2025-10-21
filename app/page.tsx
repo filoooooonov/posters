@@ -7,23 +7,32 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="relative">
-      <div className="max-w-3xl mx-auto py-40 px-4 lg:px-0">
+      {/* Full-width hero with robust gradient overlay */}
+      <section className="relative w-full h-80">
         <Image
           src={bg}
           alt="Otaniemi map"
-          className="absolute top-0 left-0 w-full -z-10 h-80 object-cover saturate-0 opacity-80"
+          fill
+          priority
+          className="object-cover saturate-0 opacity-80"
         />
-        x{" "}
-        <h1 className="text-5xl font-medium mb-8 text-white relative z-10">
-          Posters
-        </h1>
-        <div className="flex flex-col sm:flex-row justify-between mb-20 gap-4 relative z-10">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+        <div className="absolute inset-0">
+          <div className="max-w-3xl mx-auto h-full flex items-end px-4 lg:px-0">
+            <h1 className="text-5xl font-medium mb-8 text-white">Posters</h1>
+          </div>
+        </div>
+      </section>
+
+      {/* Constrained content below hero */}
+      <div className="max-w-3xl mx-auto px-4 lg:px-0">
+        <div className="flex flex-col sm:flex-row justify-between mb-20 gap-4">
           <p className="text-neutral-400 text-sm md:text-base">
             Personal collection of cool Aalto University event posters.
           </p>
           <DialogSubmitPoster />
         </div>
-        <div className="relative z-10">
+        <div className="relative">
           <Gallery />
         </div>
       </div>
