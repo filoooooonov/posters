@@ -15,6 +15,17 @@ import poster13 from "@/public/niemenhalki.jpg";
 import poster14 from "@/public/majasitsit.jpg";
 import poster15 from "@/public/kevatkonsertti.jpg";
 import poster16 from "@/public/talkoot.jpg";
+import poster17 from "@/public/ayy15.jpg";
+import poster18 from "@/public/dipolinwappu24.jpg";
+import poster19 from "@/public/elonkorjuu.jpg";
+import poster20 from "@/public/etcohorror.jpg";
+import poster21 from "@/public/gravitaatio.jpg";
+import poster22 from "@/public/iltama.jpg";
+import poster23 from "@/public/lakin24.jpg";
+import poster24 from "@/public/independence.jpg";
+import poster25 from "@/public/polinappro.jpg";
+import poster26 from "@/public/walpurgis.jpg";
+import poster27 from "@/public/wappuriehan.jpg";
 
 export interface Poster {
   name: string;
@@ -85,5 +96,49 @@ export const posters: Poster[] = [
   {
     name: "Kylän Talkoot",
     image: poster16,
+  },
+  {
+    name: "AYY 15",
+    image: poster17,
+  },
+  {
+    name: "Dipolin Wappu 2024",
+    image: poster18,
+  },
+  {
+    name: "Elonkorjuu",
+    image: poster19,
+  },
+  {
+    name: "Etco Horror Fuksisitsit",
+    image: poster20,
+  },
+  {
+    name: "Gravitaatio 2025",
+    image: poster21,
+  },
+  {
+    name: "Kulttuuri iltama",
+    image: poster22,
+  },
+  {
+    name: "Lakinlaskijaiset 2024",
+    image: poster23,
+  },
+  {
+    name: "Independence Day 2024",
+    image: poster24,
+  },
+  {
+    name: "Polin Appro 2022",
+    image: poster25,
+  },
+  {
+    name: "Walpurgis Night",
+    image: poster26,
+  },
+  {
+    name: "Wappu Riehan Julistus",
+    image: poster27,
   },
 ];
