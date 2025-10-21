@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative pb-60">
       {/* Full-width hero with robust gradient overlay */}
       <section className="relative w-full h-40 md:h-80">
         <Image
