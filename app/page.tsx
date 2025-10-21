@@ -16,7 +16,7 @@ export default function Home() {
           priority
           className="hidden md:block object-cover saturate-0 opacity-80"
         />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 to-black/10" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-[#0a0a0a]/30" />
         <div className="absolute inset-0">
           <div className="max-w-3xl mx-auto h-full flex items-end px-4 lg:px-0">
             <h1 className="text-5xl font-medium mb-8 text-white">Posters</h1>
