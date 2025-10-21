@@ -11,17 +11,21 @@ export default function Home() {
         <Image
           src={bg}
           alt="Otaniemi map"
-          className="absolute top-0 left-0 w-full -z-2 h-80 object-cover saturate-0 opacity-80"
+          className="absolute top-0 left-0 w-full -z-10 h-80 object-cover saturate-0 opacity-80"
         />
-        <div className="absolute top-0 left-0 w-full -z-1 h-80 bg-gradient-to-t from-neutral-950 to-transparent"></div>
-        <h1 className="text-5xl font-medium mb-8 text-white">Posters</h1>
-        <div className="flex flex-col sm:flex-row justify-between mb-20 gap-4">
+        <div className="absolute top-0 left-0 w-full z-0 h-80 bg-gradient-to-t from-neutral-950 to-transparent"></div>
+        <h1 className="text-5xl font-medium mb-8 text-white relative z-10">
+          Posters
+        </h1>
+        <div className="flex flex-col sm:flex-row justify-between mb-20 gap-4 relative z-10">
           <p className="text-neutral-400 text-sm md:text-base">
             Personal collection of cool Aalto University event posters.
           </p>
           <DialogSubmitPoster />
         </div>
-        <Gallery />
+        <div className="relative z-10">
+          <Gallery />
+        </div>
       </div>
       <Footer />
     </main>
