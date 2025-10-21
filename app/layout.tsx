@@ -30,6 +30,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-neutral-950`}
       >
         <Toaster />
+        <div className="absolute top-0 left-0 w-full -z-1 h-80 bg-gradient-to-t from-neutral-950 to-transparent"></div>
+
         {children}
       </body>
     </html>
