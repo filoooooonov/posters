@@ -34,7 +34,7 @@ export interface Poster {
 
 export const posters: Poster[] = [
   {
-    name: "build_it v13",
+    name: "Build It v13",
     image: poster1,
   },
   // {
