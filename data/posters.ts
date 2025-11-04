@@ -26,6 +26,9 @@ import poster24 from "@/public/independence.jpg";
 import poster25 from "@/public/polinappro.jpg";
 import poster26 from "@/public/walpurgis.jpg";
 import poster27 from "@/public/wappuriehan.jpg";
+import poster28 from "@/public/ak_vaalit.jpg";
+import poster29 from "@/public/flightsitz.jpg";
+import poster30 from "@/public/rwbk.png";
 
 export interface Poster {
   name: string;
@@ -140,5 +143,17 @@ export const posters: Poster[] = [
   {
     name: "Wappu Riehan Julistus",
     image: poster27,
+  },
+  {
+    name: "AK Vaalit 2025",
+    image: poster28,
+  },
+  {
+    name: "Flight Sitz",
+    image: poster29,
+  },
+  {
+    name: "RWBK",
+    image: poster30,
   },
 ];
